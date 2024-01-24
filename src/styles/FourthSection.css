@@ -1,0 +1,84 @@
+.FourthSeciontContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.ForLogosimages {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forCarousel {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flashsalescontainer {
+  width: 100%;
+  height: 50vh;
+}
+
+.headline {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  flex-direction: column;
+  gap: 25px;
+  color: var(--Dark-Grey---Fashion, #323232);
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sliderflash {
+  width: 98%;
+  height: 50vh;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.highlight-container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  gap: 50px;
+}
+
+.highlight-image {
+  width: 100%;
+  height: 43vh;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.highlight-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.highlight-container:hover .highlight-image {
+  filter: brightness(40%);
+}
+
+.highlight-container:hover .highlight-text {
+  opacity: 1;
+}

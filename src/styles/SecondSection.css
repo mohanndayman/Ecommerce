@@ -1,0 +1,108 @@
+.secondsectioncontainer {
+  width: 100%;
+  height: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondSecitonContent {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+.upflex {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.leftUpFlex {
+  width: 40%;
+  height: 27vh;
+  border-radius: 10px;
+  display: flex;
+
+  background: #fff801;
+  background: linear-gradient(135deg, #fff801, #aafd7b);
+}
+.rightUpFlex {
+  width: 40%;
+  height: 27vh;
+  border-radius: 10px;
+  background: #62d1ff;
+  background: linear-gradient(135deg, #62d1ff, #487dff);
+}
+.downFlex {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.downFlexContent {
+  width: 50%;
+  border-radius: 14px;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+}
+.downFlexContent img {
+  height: 40vh;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 20px;
+  color: black;
+}
+.left h1 {
+  font-family: Ubuntu;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.left h2 {
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.left button {
+  width: 174px;
+  color: white;
+  font-weight: 600;
+  height: 52px;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  background: linear-gradient(135deg, #62d1ff, #487dff);
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+.right img {
+  object-fit: cover;
+}
+.rightUpFlex {
+  width: 40%;
+  height: 27vh;
+  border-radius: 10px;
+  display: flex;
+}
+#buttonstyle {
+  color: black;
+  font-weight: 600;
+  background: #fff801;
+  background: linear-gradient(135deg, #fff801, #aafd7b);
+}
